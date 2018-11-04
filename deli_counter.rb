@@ -11,5 +11,6 @@ def line(array)
       message += "#{i}. #{name} "
       i += 1
     end
+  end
   message
 end
