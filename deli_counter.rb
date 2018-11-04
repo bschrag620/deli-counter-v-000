@@ -12,5 +12,5 @@ def line(array)
       i += 1
     end
   end
-  message
+  puts message
 end
