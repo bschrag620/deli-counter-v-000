@@ -5,10 +5,10 @@ def line(array)
   if array.count == 0
     message = "The line is currently empty."
   else
-    message = "The line is currently: "
+    message = "The line is currently:"
     i = 1
     array.each do | name |
-      message += "#{i}. #{name} "
+      message += " #{i}. #{name}"
       i += 1
     end
   end
