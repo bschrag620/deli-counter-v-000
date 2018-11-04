@@ -24,7 +24,7 @@ end
 def now_serving(array)
   if array.count > 0
     customer = array.shift
-    message = "Currently serving #{customer}"
+    message = "Currently serving #{customer}."
   else
     message = "There is nobody waiting to be served!"
   end
