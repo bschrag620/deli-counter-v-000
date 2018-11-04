@@ -30,4 +30,3 @@ def now_serving(array)
   end
   puts message
 end
-  
